@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto
+CMAKE_SOURCE_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\src\\CMakeFiles\progress.marks
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\src\\CMakeFiles\progress.marks"
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/niza_full_lib.dir/rule:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/niza_full_lib.dir/rule
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/niza_full_lib.dir/rule
 .PHONY : src/CMakeFiles/niza_full_lib.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ niza_full_lib: src/CMakeFiles/niza_full_lib.dir/rule
 
 # fast build rule for target.
 niza_full_lib/fast:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/build
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/build
 .PHONY : niza_full_lib/fast
 
 Model/Admin.obj: Model/Admin.cpp.obj
@@ -179,7 +179,7 @@ Model/Admin.obj: Model/Admin.cpp.obj
 
 # target to build an object file
 Model/Admin.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.obj
 .PHONY : Model/Admin.cpp.obj
 
 Model/Admin.i: Model/Admin.cpp.i
@@ -187,7 +187,7 @@ Model/Admin.i: Model/Admin.cpp.i
 
 # target to preprocess a source file
 Model/Admin.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.i
 .PHONY : Model/Admin.cpp.i
 
 Model/Admin.s: Model/Admin.cpp.s
@@ -195,7 +195,7 @@ Model/Admin.s: Model/Admin.cpp.s
 
 # target to generate assembly for a file
 Model/Admin.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.s
 .PHONY : Model/Admin.cpp.s
 
 Model/Fundador.obj: Model/Fundador.cpp.obj
@@ -203,7 +203,7 @@ Model/Fundador.obj: Model/Fundador.cpp.obj
 
 # target to build an object file
 Model/Fundador.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.obj
 .PHONY : Model/Fundador.cpp.obj
 
 Model/Fundador.i: Model/Fundador.cpp.i
@@ -211,7 +211,7 @@ Model/Fundador.i: Model/Fundador.cpp.i
 
 # target to preprocess a source file
 Model/Fundador.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.i
 .PHONY : Model/Fundador.cpp.i
 
 Model/Fundador.s: Model/Fundador.cpp.s
@@ -219,7 +219,7 @@ Model/Fundador.s: Model/Fundador.cpp.s
 
 # target to generate assembly for a file
 Model/Fundador.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.s
 .PHONY : Model/Fundador.cpp.s
 
 Model/Propiedad.obj: Model/Propiedad.cpp.obj
@@ -227,7 +227,7 @@ Model/Propiedad.obj: Model/Propiedad.cpp.obj
 
 # target to build an object file
 Model/Propiedad.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.obj
 .PHONY : Model/Propiedad.cpp.obj
 
 Model/Propiedad.i: Model/Propiedad.cpp.i
@@ -235,7 +235,7 @@ Model/Propiedad.i: Model/Propiedad.cpp.i
 
 # target to preprocess a source file
 Model/Propiedad.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.i
 .PHONY : Model/Propiedad.cpp.i
 
 Model/Propiedad.s: Model/Propiedad.cpp.s
@@ -243,7 +243,7 @@ Model/Propiedad.s: Model/Propiedad.cpp.s
 
 # target to generate assembly for a file
 Model/Propiedad.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.s
 .PHONY : Model/Propiedad.cpp.s
 
 Model/Propietario.obj: Model/Propietario.cpp.obj
@@ -251,7 +251,7 @@ Model/Propietario.obj: Model/Propietario.cpp.obj
 
 # target to build an object file
 Model/Propietario.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.obj
 .PHONY : Model/Propietario.cpp.obj
 
 Model/Propietario.i: Model/Propietario.cpp.i
@@ -259,7 +259,7 @@ Model/Propietario.i: Model/Propietario.cpp.i
 
 # target to preprocess a source file
 Model/Propietario.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.i
 .PHONY : Model/Propietario.cpp.i
 
 Model/Propietario.s: Model/Propietario.cpp.s
@@ -267,7 +267,7 @@ Model/Propietario.s: Model/Propietario.cpp.s
 
 # target to generate assembly for a file
 Model/Propietario.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.s
 .PHONY : Model/Propietario.cpp.s
 
 Model/Reventa.obj: Model/Reventa.cpp.obj
@@ -275,7 +275,7 @@ Model/Reventa.obj: Model/Reventa.cpp.obj
 
 # target to build an object file
 Model/Reventa.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.obj
 .PHONY : Model/Reventa.cpp.obj
 
 Model/Reventa.i: Model/Reventa.cpp.i
@@ -283,7 +283,7 @@ Model/Reventa.i: Model/Reventa.cpp.i
 
 # target to preprocess a source file
 Model/Reventa.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.i
 .PHONY : Model/Reventa.cpp.i
 
 Model/Reventa.s: Model/Reventa.cpp.s
@@ -291,7 +291,7 @@ Model/Reventa.s: Model/Reventa.cpp.s
 
 # target to generate assembly for a file
 Model/Reventa.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.s
 .PHONY : Model/Reventa.cpp.s
 
 View/View.obj: View/View.cpp.obj
@@ -299,7 +299,7 @@ View/View.obj: View/View.cpp.obj
 
 # target to build an object file
 View/View.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.obj
 .PHONY : View/View.cpp.obj
 
 View/View.i: View/View.cpp.i
@@ -307,7 +307,7 @@ View/View.i: View/View.cpp.i
 
 # target to preprocess a source file
 View/View.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.i
 .PHONY : View/View.cpp.i
 
 View/View.s: View/View.cpp.s
@@ -315,7 +315,7 @@ View/View.s: View/View.cpp.s
 
 # target to generate assembly for a file
 View/View.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/View/View.cpp.s
 .PHONY : View/View.cpp.s
 
 main.obj: main.cpp.obj
@@ -323,7 +323,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -331,7 +331,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -339,7 +339,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\niza_full_lib.dir\build.make src/CMakeFiles/niza_full_lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -387,6 +387,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

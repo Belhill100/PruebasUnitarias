@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto
+CMAKE_SOURCE_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test\\CMakeFiles\progress.marks
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\test\\CMakeFiles\progress.marks"
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/niza_full_test.dir/rule:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/niza_full_test.dir/rule
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/niza_full_test.dir/rule
 .PHONY : test/CMakeFiles/niza_full_test.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ niza_full_test: test/CMakeFiles/niza_full_test.dir/rule
 
 # fast build rule for target.
 niza_full_test/fast:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/build
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/build
 .PHONY : niza_full_test/fast
 
 AdminTest.obj: AdminTest.cpp.obj
@@ -179,7 +179,7 @@ AdminTest.obj: AdminTest.cpp.obj
 
 # target to build an object file
 AdminTest.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj
 .PHONY : AdminTest.cpp.obj
 
 AdminTest.i: AdminTest.cpp.i
@@ -187,7 +187,7 @@ AdminTest.i: AdminTest.cpp.i
 
 # target to preprocess a source file
 AdminTest.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.i
 .PHONY : AdminTest.cpp.i
 
 AdminTest.s: AdminTest.cpp.s
@@ -195,7 +195,7 @@ AdminTest.s: AdminTest.cpp.s
 
 # target to generate assembly for a file
 AdminTest.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.s
 .PHONY : AdminTest.cpp.s
 
 PropietarioTest.obj: PropietarioTest.cpp.obj
@@ -203,7 +203,7 @@ PropietarioTest.obj: PropietarioTest.cpp.obj
 
 # target to build an object file
 PropietarioTest.cpp.obj:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj
 .PHONY : PropietarioTest.cpp.obj
 
 PropietarioTest.i: PropietarioTest.cpp.i
@@ -211,7 +211,7 @@ PropietarioTest.i: PropietarioTest.cpp.i
 
 # target to preprocess a source file
 PropietarioTest.cpp.i:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.i
 .PHONY : PropietarioTest.cpp.i
 
 PropietarioTest.s: PropietarioTest.cpp.s
@@ -219,7 +219,7 @@ PropietarioTest.s: PropietarioTest.cpp.s
 
 # target to generate assembly for a file
 PropietarioTest.cpp.s:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\niza_full_test.dir\build.make test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.s
 .PHONY : PropietarioTest.cpp.s
 
 # Help Target
@@ -252,6 +252,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

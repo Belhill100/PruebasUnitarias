@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto
+CMAKE_SOURCE_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/niza_full_test.dir/depend.make
@@ -68,30 +68,30 @@ include test/CMakeFiles/niza_full_test.dir/flags.make
 test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj: test/CMakeFiles/niza_full_test.dir/flags.make
 test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj: test/CMakeFiles/niza_full_test.dir/includes_CXX.rsp
 test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj: ../test/AdminTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\niza_full_test.dir\AdminTest.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\AdminTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.obj"
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\niza_full_test.dir\AdminTest.cpp.obj -c "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\AdminTest.cpp"
 
 test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niza_full_test.dir/AdminTest.cpp.i"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\AdminTest.cpp > CMakeFiles\niza_full_test.dir\AdminTest.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\AdminTest.cpp" > CMakeFiles\niza_full_test.dir\AdminTest.cpp.i
 
 test/CMakeFiles/niza_full_test.dir/AdminTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niza_full_test.dir/AdminTest.cpp.s"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\AdminTest.cpp -o CMakeFiles\niza_full_test.dir\AdminTest.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\AdminTest.cpp" -o CMakeFiles\niza_full_test.dir\AdminTest.cpp.s
 
 test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj: test/CMakeFiles/niza_full_test.dir/flags.make
 test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj: test/CMakeFiles/niza_full_test.dir/includes_CXX.rsp
 test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj: ../test/PropietarioTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.obj -c C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\PropietarioTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.obj"
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.obj -c "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\PropietarioTest.cpp"
 
 test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.i"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\PropietarioTest.cpp > CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.i
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\PropietarioTest.cpp" > CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.i
 
 test/CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/niza_full_test.dir/PropietarioTest.cpp.s"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test\PropietarioTest.cpp -o CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.s
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test\PropietarioTest.cpp" -o CMakeFiles\niza_full_test.dir\PropietarioTest.cpp.s
 
 # Object files for target niza_full_test
 niza_full_test_OBJECTS = \
@@ -110,19 +110,19 @@ test/niza_full_test.exe: lib/libgtestd.a
 test/niza_full_test.exe: test/CMakeFiles/niza_full_test.dir/linklibs.rsp
 test/niza_full_test.exe: test/CMakeFiles/niza_full_test.dir/objects1.rsp
 test/niza_full_test.exe: test/CMakeFiles/niza_full_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable niza_full_test.exe"
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\niza_full_test.dir\link.txt --verbose=$(VERBOSE)
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -D TEST_TARGET=niza_full_test -D TEST_EXECUTABLE=C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/test/niza_full_test.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=niza_full_test_TESTS -D CTEST_FILE=C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/test/niza_full_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/GoogleTestAddTests.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable niza_full_test.exe"
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\niza_full_test.dir\link.txt --verbose=$(VERBOSE)
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -D TEST_TARGET=niza_full_test -D "TEST_EXECUTABLE=C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/test/niza_full_test.exe" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/test" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=niza_full_test_TESTS -D "CTEST_FILE=C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/test/niza_full_test[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/GoogleTestAddTests.cmake"
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/niza_full_test.dir/build: test/niza_full_test.exe
 .PHONY : test/CMakeFiles/niza_full_test.dir/build
 
 test/CMakeFiles/niza_full_test.dir/clean:
-	cd /d C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test && $(CMAKE_COMMAND) -P CMakeFiles\niza_full_test.dir\cmake_clean.cmake
+	cd /d C:\Users\ecoll\OneDrive\ESCRIT~1\TERCER~1\PROGRA~1\PRUEBA~1\CMAKE-~1\test && $(CMAKE_COMMAND) -P CMakeFiles\niza_full_test.dir\cmake_clean.cmake
 .PHONY : test/CMakeFiles/niza_full_test.dir/clean
 
 test/CMakeFiles/niza_full_test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\test C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto\cmake-build-debug\test\CMakeFiles\niza_full_test.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\test" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\test" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias\cmake-build-debug\test\CMakeFiles\niza_full_test.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/niza_full_test.dir/depend
 

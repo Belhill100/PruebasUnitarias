@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/lib/googleTest
+# Install script for directory: C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/lib/googleTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/lib/googleTest/googlemock/cmake_install.cmake")
+  include("C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/lib/googleTest/googlemock/cmake_install.cmake")
 
 endif()
 

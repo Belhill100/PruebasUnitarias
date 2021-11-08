@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/Model/Admin.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/Model/Fundador.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/Model/Propiedad.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/Model/Propietario.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/Model/Reventa.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/View/View.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/View/View.cpp.obj"
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src/main.cpp" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/main.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/Model/Admin.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Admin.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/Model/Fundador.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Fundador.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/Model/Propiedad.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Propiedad.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/Model/Propietario.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Propietario.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/Model/Reventa.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/Model/Reventa.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/View/View.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/View/View.cpp.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src/main.cpp" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/src/CMakeFiles/niza_full_lib.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

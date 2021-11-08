@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/src
+# Install script for directory: C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

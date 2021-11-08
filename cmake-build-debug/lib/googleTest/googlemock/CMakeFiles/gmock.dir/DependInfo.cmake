@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/lib/googleTest/googlemock/src/gmock-all.cc" "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/lib/googleTest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/lib/googleTest/googlemock/src/gmock-all.cc" "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/lib/googleTest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,7 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/lib/googleTest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/lib/googleTest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

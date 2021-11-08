@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\ecoll\OneDrive\Escritorio\POO\POO\POO\AltosNizaPruebasCompleto
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\ecoll\OneDrive\Escritorio\Tercer Semestre\Programacion Orientada a Objetos\PruebasUnitarias"
 -- The C compiler identification is GNU 6.3.0
 -- The CXX compiler identification is GNU 6.3.0
 -- Detecting C compiler ABI info
@@ -14,4 +14,4 @@
 -- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug
+-- Build files have been written to: C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug

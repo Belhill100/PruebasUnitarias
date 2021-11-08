@@ -1,5 +1,5 @@
-if(EXISTS "C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/test/niza_full_test[1]_tests.cmake")
-  include("C:/Users/ecoll/OneDrive/Escritorio/POO/POO/POO/AltosNizaPruebasCompleto/cmake-build-debug/test/niza_full_test[1]_tests.cmake")
+if(EXISTS "C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/test/niza_full_test[1]_tests.cmake")
+  include("C:/Users/ecoll/OneDrive/Escritorio/Tercer Semestre/Programacion Orientada a Objetos/PruebasUnitarias/cmake-build-debug/test/niza_full_test[1]_tests.cmake")
 else()
   add_test(niza_full_test_NOT_BUILT niza_full_test_NOT_BUILT)
 endif()
